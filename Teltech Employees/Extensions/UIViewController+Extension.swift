@@ -8,11 +8,15 @@
 import Foundation
 import UIKit
 
-public extension UIViewController {
+extension UIViewController {
     
-    #warning("add localized string later")
-    func showAlertWith(title: String?, message: String?, action: UIAlertAction = UIAlertAction(title: "Ok", style: .cancel, handler: nil), anotherAction: UIAlertAction? = nil){
+    func showAlertWith(title: String?,
+                       message: String?,
+                       action: UIAlertAction,
+                       anotherAction: UIAlertAction? = nil){
+        
         let alert: UIAlertController = {
+            
             let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
             alert.addAction(action)
             if anotherAction != nil {
@@ -20,6 +24,7 @@ public extension UIViewController {
             }
             return alert
         }()
+        
         self.present(alert, animated: true, completion: nil)
     }
     

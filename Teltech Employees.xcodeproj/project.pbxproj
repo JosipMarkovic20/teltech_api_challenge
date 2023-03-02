@@ -22,11 +22,21 @@
 		5FC8A18329B0B5AB0051EEF9 /* EmployeeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A16F29B0B5AA0051EEF9 /* EmployeeListViewModel.swift */; };
 		5FC8A18429B0B5AB0051EEF9 /* EmployeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A17129B0B5AA0051EEF9 /* EmployeeListViewController.swift */; };
 		5FC8A18529B0B5AB0051EEF9 /* EmployeeListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A17329B0B5AA0051EEF9 /* EmployeeListCoordinator.swift */; };
-		5FC8A18629B0B5AB0051EEF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC8A17629B0B5AA0051EEF9 /* Preview Assets.xcassets */; };
 		5FC8A18729B0B5AB0051EEF9 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A17929B0B5AA0051EEF9 /* UIView+Extension.swift */; };
 		5FC8A18829B0B5AB0051EEF9 /* Observable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A17A29B0B5AA0051EEF9 /* Observable+Extension.swift */; };
 		5FC8A18929B0B5AB0051EEF9 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A17B29B0B5AA0051EEF9 /* UIViewController+Extension.swift */; };
 		5FC8A18A29B0B5AB0051EEF9 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A17C29B0B5AA0051EEF9 /* UITableView+Extension.swift */; };
+		5FC8A18C29B12BE40051EEF9 /* EmployeeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A18B29B12BE40051EEF9 /* EmployeeError.swift */; };
+		5FC8A18E29B12C220051EEF9 /* LoaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A18D29B12C220051EEF9 /* LoaderProtocol.swift */; };
+		5FC8A19029B12C5C0051EEF9 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A18F29B12C5C0051EEF9 /* Employee.swift */; };
+		5FC8A19229B12F430051EEF9 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A19129B12F430051EEF9 /* R.generated.swift */; };
+		5FC8A19429B1307A0051EEF9 /* RESTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A19329B1307A0051EEF9 /* RESTManager.swift */; };
+		5FC8A19629B135530051EEF9 /* RESTEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A19529B135530051EEF9 /* RESTEndpoints.swift */; };
+		5FC8A19829B135EB0051EEF9 /* EmployeeListOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A19729B135EB0051EEF9 /* EmployeeListOutput.swift */; };
+		5FC8A19A29B135FC0051EEF9 /* EmployeeListInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A19929B135FC0051EEF9 /* EmployeeListInput.swift */; };
+		5FC8A19C29B136140051EEF9 /* EmployeeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A19B29B136140051EEF9 /* EmployeeItem.swift */; };
+		5FC8A19E29B13CEE0051EEF9 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A19D29B13CEE0051EEF9 /* Team.swift */; };
+		5FC8A1A029B1418E0051EEF9 /* EmployeesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A19F29B1418E0051EEF9 /* EmployeesRepository.swift */; };
 		7D72E317D0C38BB3A783C503 /* Pods_Teltech_Employees_Teltech_EmployeesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD1E0C8D36D5CEF081E4217 /* Pods_Teltech_Employees_Teltech_EmployeesUITests.framework */; };
 		BBFA54FB770684262E330F77 /* Pods_Teltech_EmployeesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEE2AC017D3B9678ECB6C21 /* Pods_Teltech_EmployeesTests.framework */; };
 /* End PBXBuildFile section */
@@ -69,11 +79,21 @@
 		5FC8A16F29B0B5AA0051EEF9 /* EmployeeListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeListViewModel.swift; sourceTree = "<group>"; };
 		5FC8A17129B0B5AA0051EEF9 /* EmployeeListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeListViewController.swift; sourceTree = "<group>"; };
 		5FC8A17329B0B5AA0051EEF9 /* EmployeeListCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeListCoordinator.swift; sourceTree = "<group>"; };
-		5FC8A17629B0B5AA0051EEF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5FC8A17929B0B5AA0051EEF9 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		5FC8A17A29B0B5AA0051EEF9 /* Observable+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Extension.swift"; sourceTree = "<group>"; };
 		5FC8A17B29B0B5AA0051EEF9 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		5FC8A17C29B0B5AA0051EEF9 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		5FC8A18B29B12BE40051EEF9 /* EmployeeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeError.swift; sourceTree = "<group>"; };
+		5FC8A18D29B12C220051EEF9 /* LoaderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderProtocol.swift; sourceTree = "<group>"; };
+		5FC8A18F29B12C5C0051EEF9 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		5FC8A19129B12F430051EEF9 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		5FC8A19329B1307A0051EEF9 /* RESTManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTManager.swift; sourceTree = "<group>"; };
+		5FC8A19529B135530051EEF9 /* RESTEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTEndpoints.swift; sourceTree = "<group>"; };
+		5FC8A19729B135EB0051EEF9 /* EmployeeListOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListOutput.swift; sourceTree = "<group>"; };
+		5FC8A19929B135FC0051EEF9 /* EmployeeListInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListInput.swift; sourceTree = "<group>"; };
+		5FC8A19B29B136140051EEF9 /* EmployeeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeItem.swift; sourceTree = "<group>"; };
+		5FC8A19D29B13CEE0051EEF9 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		5FC8A19F29B1418E0051EEF9 /* EmployeesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesRepository.swift; sourceTree = "<group>"; };
 		78EED5F0283EE0740F81573C /* Pods-Teltech Employees.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teltech Employees.release.xcconfig"; path = "Target Support Files/Pods-Teltech Employees/Pods-Teltech Employees.release.xcconfig"; sourceTree = "<group>"; };
 		9BEE2AC017D3B9678ECB6C21 /* Pods_Teltech_EmployeesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teltech_EmployeesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD1E0C8D36D5CEF081E4217 /* Pods_Teltech_Employees_Teltech_EmployeesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teltech_Employees_Teltech_EmployeesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,18 +156,18 @@
 		5FC8A11B29B0B3720051EEF9 /* Teltech Employees */ = {
 			isa = PBXGroup;
 			children = (
-				5FC8A16129B0B5AA0051EEF9 /* Assets */,
-				5FC8A16529B0B5AA0051EEF9 /* Coordinator */,
-				5FC8A16A29B0B5AA0051EEF9 /* Delegates */,
-				5FC8A16D29B0B5AA0051EEF9 /* EmployeeList */,
 				5FC8A17829B0B5AA0051EEF9 /* Extensions */,
-				5FC8A17729B0B5AA0051EEF9 /* Models */,
-				5FC8A16829B0B5AA0051EEF9 /* Networking */,
-				5FC8A17529B0B5AA0051EEF9 /* Preview Content */,
-				5FC8A16429B0B5AA0051EEF9 /* Repositories */,
 				5FC8A16929B0B5AA0051EEF9 /* Utils */,
+				5FC8A16829B0B5AA0051EEF9 /* Networking */,
+				5FC8A17729B0B5AA0051EEF9 /* Models */,
+				5FC8A16429B0B5AA0051EEF9 /* Repositories */,
+				5FC8A16A29B0B5AA0051EEF9 /* Delegates */,
+				5FC8A16529B0B5AA0051EEF9 /* Coordinator */,
+				5FC8A16D29B0B5AA0051EEF9 /* EmployeeList */,
+				5FC8A16129B0B5AA0051EEF9 /* Assets */,
 				5FC8A11C29B0B3720051EEF9 /* AppDelegate.swift */,
 				5FC8A11E29B0B3720051EEF9 /* SceneDelegate.swift */,
+				5FC8A19129B12F430051EEF9 /* R.generated.swift */,
 				5FC8A12A29B0B3740051EEF9 /* Info.plist */,
 			);
 			path = "Teltech Employees";
@@ -182,6 +202,7 @@
 		5FC8A16429B0B5AA0051EEF9 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				5FC8A19F29B1418E0051EEF9 /* EmployeesRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -198,6 +219,7 @@
 		5FC8A16829B0B5AA0051EEF9 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				5FC8A19329B1307A0051EEF9 /* RESTManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -205,6 +227,9 @@
 		5FC8A16929B0B5AA0051EEF9 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				5FC8A18B29B12BE40051EEF9 /* EmployeeError.swift */,
+				5FC8A18D29B12C220051EEF9 /* LoaderProtocol.swift */,
+				5FC8A19529B135530051EEF9 /* RESTEndpoints.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -221,10 +246,10 @@
 		5FC8A16D29B0B5AA0051EEF9 /* EmployeeList */ = {
 			isa = PBXGroup;
 			children = (
+				5FC8A17429B0B5AA0051EEF9 /* Model */,
+				5FC8A17229B0B5AA0051EEF9 /* Coordinator */,
 				5FC8A16E29B0B5AA0051EEF9 /* ViewModel */,
 				5FC8A17029B0B5AA0051EEF9 /* UI */,
-				5FC8A17229B0B5AA0051EEF9 /* Coordinator */,
-				5FC8A17429B0B5AA0051EEF9 /* Model */,
 			);
 			path = EmployeeList;
 			sourceTree = "<group>";
@@ -256,21 +281,18 @@
 		5FC8A17429B0B5AA0051EEF9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5FC8A19729B135EB0051EEF9 /* EmployeeListOutput.swift */,
+				5FC8A19929B135FC0051EEF9 /* EmployeeListInput.swift */,
+				5FC8A19B29B136140051EEF9 /* EmployeeItem.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		5FC8A17529B0B5AA0051EEF9 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				5FC8A17629B0B5AA0051EEF9 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		5FC8A17729B0B5AA0051EEF9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5FC8A18F29B12C5C0051EEF9 /* Employee.swift */,
+				5FC8A19D29B13CEE0051EEF9 /* Team.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -317,11 +339,11 @@
 			buildConfigurationList = 5FC8A14329B0B3740051EEF9 /* Build configuration list for PBXNativeTarget "Teltech Employees" */;
 			buildPhases = (
 				F09D40300911A640C196E206 /* [CP] Check Pods Manifest.lock */,
+				5FC8A16029B0B5290051EEF9 /* R-Swift */,
 				5FC8A11529B0B3720051EEF9 /* Sources */,
 				5FC8A11629B0B3720051EEF9 /* Frameworks */,
 				5FC8A11729B0B3720051EEF9 /* Resources */,
 				21863F7F76B053811D5D9FE9 /* [CP] Embed Pods Frameworks */,
-				5FC8A16029B0B5290051EEF9 /* R-Swift */,
 			);
 			buildRules = (
 			);
@@ -420,7 +442,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FC8A17D29B0B5AB0051EEF9 /* Assets.xcassets in Resources */,
-				5FC8A18629B0B5AB0051EEF9 /* Preview Assets.xcassets in Resources */,
 				5FC8A17E29B0B5AB0051EEF9 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +521,7 @@
 		};
 		5FC8A16029B0B5290051EEF9 /* R-Swift */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -511,11 +533,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				$SRCROOT/R.generated.swift,
+				"$SRCROOT/Teltech Employees/R.generated.swift",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/Teltech Employees/R.generated.swift\"\n";
 		};
 		68D93B294CF70532239E7838 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -568,19 +590,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FC8A19829B135EB0051EEF9 /* EmployeeListOutput.swift in Sources */,
 				5FC8A18929B0B5AB0051EEF9 /* UIViewController+Extension.swift in Sources */,
+				5FC8A18E29B12C220051EEF9 /* LoaderProtocol.swift in Sources */,
 				5FC8A18029B0B5AB0051EEF9 /* Coordinator.swift in Sources */,
+				5FC8A19429B1307A0051EEF9 /* RESTManager.swift in Sources */,
+				5FC8A18C29B12BE40051EEF9 /* EmployeeError.swift in Sources */,
 				5FC8A17F29B0B5AB0051EEF9 /* AppCoordinator.swift in Sources */,
+				5FC8A19629B135530051EEF9 /* RESTEndpoints.swift in Sources */,
 				5FC8A11D29B0B3720051EEF9 /* AppDelegate.swift in Sources */,
 				5FC8A11F29B0B3720051EEF9 /* SceneDelegate.swift in Sources */,
 				5FC8A18429B0B5AB0051EEF9 /* EmployeeListViewController.swift in Sources */,
+				5FC8A19229B12F430051EEF9 /* R.generated.swift in Sources */,
 				5FC8A18129B0B5AB0051EEF9 /* ParentCoordinatorDelegate.swift in Sources */,
+				5FC8A19A29B135FC0051EEF9 /* EmployeeListInput.swift in Sources */,
+				5FC8A19029B12C5C0051EEF9 /* Employee.swift in Sources */,
 				5FC8A18829B0B5AB0051EEF9 /* Observable+Extension.swift in Sources */,
 				5FC8A18329B0B5AB0051EEF9 /* EmployeeListViewModel.swift in Sources */,
 				5FC8A18229B0B5AB0051EEF9 /* CoordinatorDelegate.swift in Sources */,
+				5FC8A19C29B136140051EEF9 /* EmployeeItem.swift in Sources */,
+				5FC8A19E29B13CEE0051EEF9 /* Team.swift in Sources */,
 				5FC8A18729B0B5AB0051EEF9 /* UIView+Extension.swift in Sources */,
 				5FC8A18529B0B5AB0051EEF9 /* EmployeeListCoordinator.swift in Sources */,
 				5FC8A18A29B0B5AB0051EEF9 /* UITableView+Extension.swift in Sources */,
+				5FC8A1A029B1418E0051EEF9 /* EmployeesRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
