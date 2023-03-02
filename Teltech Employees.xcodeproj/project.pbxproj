@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21F37D4E546090B08FE7574A /* Pods_Teltech_Employees.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7421464B519F4E8B7C32259 /* Pods_Teltech_Employees.framework */; };
 		5FC8A11D29B0B3720051EEF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A11C29B0B3720051EEF9 /* AppDelegate.swift */; };
 		5FC8A11F29B0B3720051EEF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A11E29B0B3720051EEF9 /* SceneDelegate.swift */; };
-		5FC8A12129B0B3720051EEF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A12029B0B3720051EEF9 /* ViewController.swift */; };
-		5FC8A12429B0B3720051EEF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC8A12229B0B3720051EEF9 /* Main.storyboard */; };
-		5FC8A12629B0B3740051EEF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC8A12529B0B3740051EEF9 /* Assets.xcassets */; };
-		5FC8A12929B0B3740051EEF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC8A12729B0B3740051EEF9 /* LaunchScreen.storyboard */; };
 		5FC8A13429B0B3740051EEF9 /* Teltech_EmployeesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A13329B0B3740051EEF9 /* Teltech_EmployeesTests.swift */; };
 		5FC8A13E29B0B3740051EEF9 /* Teltech_EmployeesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A13D29B0B3740051EEF9 /* Teltech_EmployeesUITests.swift */; };
 		5FC8A14029B0B3740051EEF9 /* Teltech_EmployeesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A13F29B0B3740051EEF9 /* Teltech_EmployeesUITestsLaunchTests.swift */; };
+		5FC8A17D29B0B5AB0051EEF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC8A16229B0B5AA0051EEF9 /* Assets.xcassets */; };
+		5FC8A17E29B0B5AB0051EEF9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FC8A16329B0B5AA0051EEF9 /* Localizable.strings */; };
+		5FC8A17F29B0B5AB0051EEF9 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A16629B0B5AA0051EEF9 /* AppCoordinator.swift */; };
+		5FC8A18029B0B5AB0051EEF9 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A16729B0B5AA0051EEF9 /* Coordinator.swift */; };
+		5FC8A18129B0B5AB0051EEF9 /* ParentCoordinatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A16B29B0B5AA0051EEF9 /* ParentCoordinatorDelegate.swift */; };
+		5FC8A18229B0B5AB0051EEF9 /* CoordinatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A16C29B0B5AA0051EEF9 /* CoordinatorDelegate.swift */; };
+		5FC8A18329B0B5AB0051EEF9 /* EmployeeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A16F29B0B5AA0051EEF9 /* EmployeeListViewModel.swift */; };
+		5FC8A18429B0B5AB0051EEF9 /* EmployeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A17129B0B5AA0051EEF9 /* EmployeeListViewController.swift */; };
+		5FC8A18529B0B5AB0051EEF9 /* EmployeeListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A17329B0B5AA0051EEF9 /* EmployeeListCoordinator.swift */; };
+		5FC8A18629B0B5AB0051EEF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC8A17629B0B5AA0051EEF9 /* Preview Assets.xcassets */; };
+		5FC8A18729B0B5AB0051EEF9 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A17929B0B5AA0051EEF9 /* UIView+Extension.swift */; };
+		5FC8A18829B0B5AB0051EEF9 /* Observable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A17A29B0B5AA0051EEF9 /* Observable+Extension.swift */; };
+		5FC8A18929B0B5AB0051EEF9 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A17B29B0B5AA0051EEF9 /* UIViewController+Extension.swift */; };
+		5FC8A18A29B0B5AB0051EEF9 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A17C29B0B5AA0051EEF9 /* UITableView+Extension.swift */; };
+		7D72E317D0C38BB3A783C503 /* Pods_Teltech_Employees_Teltech_EmployeesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD1E0C8D36D5CEF081E4217 /* Pods_Teltech_Employees_Teltech_EmployeesUITests.framework */; };
+		BBFA54FB770684262E330F77 /* Pods_Teltech_EmployeesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEE2AC017D3B9678ECB6C21 /* Pods_Teltech_EmployeesTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +49,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2286C79489578C20D088FD96 /* Pods-Teltech EmployeesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teltech EmployeesTests.release.xcconfig"; path = "Target Support Files/Pods-Teltech EmployeesTests/Pods-Teltech EmployeesTests.release.xcconfig"; sourceTree = "<group>"; };
+		48B08469B64B6B9F26D212AB /* Pods-Teltech Employees-Teltech EmployeesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teltech Employees-Teltech EmployeesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Teltech Employees-Teltech EmployeesUITests/Pods-Teltech Employees-Teltech EmployeesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5FC8A11929B0B3720051EEF9 /* Teltech Employees.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teltech Employees.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC8A11C29B0B3720051EEF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FC8A11E29B0B3720051EEF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5FC8A12029B0B3720051EEF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5FC8A12329B0B3720051EEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5FC8A12529B0B3740051EEF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5FC8A12829B0B3740051EEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FC8A12A29B0B3740051EEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FC8A12F29B0B3740051EEF9 /* Teltech EmployeesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teltech EmployeesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC8A13329B0B3740051EEF9 /* Teltech_EmployeesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teltech_EmployeesTests.swift; sourceTree = "<group>"; };
 		5FC8A13929B0B3740051EEF9 /* Teltech EmployeesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teltech EmployeesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC8A13D29B0B3740051EEF9 /* Teltech_EmployeesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teltech_EmployeesUITests.swift; sourceTree = "<group>"; };
 		5FC8A13F29B0B3740051EEF9 /* Teltech_EmployeesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teltech_EmployeesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5FC8A16229B0B5AA0051EEF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FC8A16329B0B5AA0051EEF9 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		5FC8A16629B0B5AA0051EEF9 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		5FC8A16729B0B5AA0051EEF9 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		5FC8A16B29B0B5AA0051EEF9 /* ParentCoordinatorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentCoordinatorDelegate.swift; sourceTree = "<group>"; };
+		5FC8A16C29B0B5AA0051EEF9 /* CoordinatorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorDelegate.swift; sourceTree = "<group>"; };
+		5FC8A16F29B0B5AA0051EEF9 /* EmployeeListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeListViewModel.swift; sourceTree = "<group>"; };
+		5FC8A17129B0B5AA0051EEF9 /* EmployeeListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeListViewController.swift; sourceTree = "<group>"; };
+		5FC8A17329B0B5AA0051EEF9 /* EmployeeListCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeListCoordinator.swift; sourceTree = "<group>"; };
+		5FC8A17629B0B5AA0051EEF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5FC8A17929B0B5AA0051EEF9 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		5FC8A17A29B0B5AA0051EEF9 /* Observable+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Extension.swift"; sourceTree = "<group>"; };
+		5FC8A17B29B0B5AA0051EEF9 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		5FC8A17C29B0B5AA0051EEF9 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		78EED5F0283EE0740F81573C /* Pods-Teltech Employees.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teltech Employees.release.xcconfig"; path = "Target Support Files/Pods-Teltech Employees/Pods-Teltech Employees.release.xcconfig"; sourceTree = "<group>"; };
+		9BEE2AC017D3B9678ECB6C21 /* Pods_Teltech_EmployeesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teltech_EmployeesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD1E0C8D36D5CEF081E4217 /* Pods_Teltech_Employees_Teltech_EmployeesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teltech_Employees_Teltech_EmployeesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BEDB80C204714DB77BAAE2 /* Pods-Teltech Employees.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teltech Employees.debug.xcconfig"; path = "Target Support Files/Pods-Teltech Employees/Pods-Teltech Employees.debug.xcconfig"; sourceTree = "<group>"; };
+		E53A38FBF939503780325848 /* Pods-Teltech Employees-Teltech EmployeesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teltech Employees-Teltech EmployeesUITests.release.xcconfig"; path = "Target Support Files/Pods-Teltech Employees-Teltech EmployeesUITests/Pods-Teltech Employees-Teltech EmployeesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E7421464B519F4E8B7C32259 /* Pods_Teltech_Employees.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teltech_Employees.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80FE95604B8475CD19507B3 /* Pods-Teltech EmployeesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teltech EmployeesTests.debug.xcconfig"; path = "Target Support Files/Pods-Teltech EmployeesTests/Pods-Teltech EmployeesTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F37D4E546090B08FE7574A /* Pods_Teltech_Employees.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBFA54FB770684262E330F77 /* Pods_Teltech_EmployeesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D72E317D0C38BB3A783C503 /* Pods_Teltech_Employees_Teltech_EmployeesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +118,8 @@
 				5FC8A13229B0B3740051EEF9 /* Teltech EmployeesTests */,
 				5FC8A13C29B0B3740051EEF9 /* Teltech EmployeesUITests */,
 				5FC8A11A29B0B3720051EEF9 /* Products */,
+				70673C46652B861A80719A86 /* Pods */,
+				DCFC20990D79658030C99517 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +136,18 @@
 		5FC8A11B29B0B3720051EEF9 /* Teltech Employees */ = {
 			isa = PBXGroup;
 			children = (
+				5FC8A16129B0B5AA0051EEF9 /* Assets */,
+				5FC8A16529B0B5AA0051EEF9 /* Coordinator */,
+				5FC8A16A29B0B5AA0051EEF9 /* Delegates */,
+				5FC8A16D29B0B5AA0051EEF9 /* EmployeeList */,
+				5FC8A17829B0B5AA0051EEF9 /* Extensions */,
+				5FC8A17729B0B5AA0051EEF9 /* Models */,
+				5FC8A16829B0B5AA0051EEF9 /* Networking */,
+				5FC8A17529B0B5AA0051EEF9 /* Preview Content */,
+				5FC8A16429B0B5AA0051EEF9 /* Repositories */,
+				5FC8A16929B0B5AA0051EEF9 /* Utils */,
 				5FC8A11C29B0B3720051EEF9 /* AppDelegate.swift */,
 				5FC8A11E29B0B3720051EEF9 /* SceneDelegate.swift */,
-				5FC8A12029B0B3720051EEF9 /* ViewController.swift */,
-				5FC8A12229B0B3720051EEF9 /* Main.storyboard */,
-				5FC8A12529B0B3740051EEF9 /* Assets.xcassets */,
-				5FC8A12729B0B3740051EEF9 /* LaunchScreen.storyboard */,
 				5FC8A12A29B0B3740051EEF9 /* Info.plist */,
 			);
 			path = "Teltech Employees";
@@ -127,6 +170,145 @@
 			path = "Teltech EmployeesUITests";
 			sourceTree = "<group>";
 		};
+		5FC8A16129B0B5AA0051EEF9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5FC8A16229B0B5AA0051EEF9 /* Assets.xcassets */,
+				5FC8A16329B0B5AA0051EEF9 /* Localizable.strings */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5FC8A16429B0B5AA0051EEF9 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		5FC8A16529B0B5AA0051EEF9 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5FC8A16629B0B5AA0051EEF9 /* AppCoordinator.swift */,
+				5FC8A16729B0B5AA0051EEF9 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		5FC8A16829B0B5AA0051EEF9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5FC8A16929B0B5AA0051EEF9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5FC8A16A29B0B5AA0051EEF9 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				5FC8A16B29B0B5AA0051EEF9 /* ParentCoordinatorDelegate.swift */,
+				5FC8A16C29B0B5AA0051EEF9 /* CoordinatorDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		5FC8A16D29B0B5AA0051EEF9 /* EmployeeList */ = {
+			isa = PBXGroup;
+			children = (
+				5FC8A16E29B0B5AA0051EEF9 /* ViewModel */,
+				5FC8A17029B0B5AA0051EEF9 /* UI */,
+				5FC8A17229B0B5AA0051EEF9 /* Coordinator */,
+				5FC8A17429B0B5AA0051EEF9 /* Model */,
+			);
+			path = EmployeeList;
+			sourceTree = "<group>";
+		};
+		5FC8A16E29B0B5AA0051EEF9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5FC8A16F29B0B5AA0051EEF9 /* EmployeeListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5FC8A17029B0B5AA0051EEF9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5FC8A17129B0B5AA0051EEF9 /* EmployeeListViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5FC8A17229B0B5AA0051EEF9 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5FC8A17329B0B5AA0051EEF9 /* EmployeeListCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		5FC8A17429B0B5AA0051EEF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5FC8A17529B0B5AA0051EEF9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5FC8A17629B0B5AA0051EEF9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5FC8A17729B0B5AA0051EEF9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5FC8A17829B0B5AA0051EEF9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5FC8A17929B0B5AA0051EEF9 /* UIView+Extension.swift */,
+				5FC8A17A29B0B5AA0051EEF9 /* Observable+Extension.swift */,
+				5FC8A17B29B0B5AA0051EEF9 /* UIViewController+Extension.swift */,
+				5FC8A17C29B0B5AA0051EEF9 /* UITableView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		70673C46652B861A80719A86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7BEDB80C204714DB77BAAE2 /* Pods-Teltech Employees.debug.xcconfig */,
+				78EED5F0283EE0740F81573C /* Pods-Teltech Employees.release.xcconfig */,
+				48B08469B64B6B9F26D212AB /* Pods-Teltech Employees-Teltech EmployeesUITests.debug.xcconfig */,
+				E53A38FBF939503780325848 /* Pods-Teltech Employees-Teltech EmployeesUITests.release.xcconfig */,
+				F80FE95604B8475CD19507B3 /* Pods-Teltech EmployeesTests.debug.xcconfig */,
+				2286C79489578C20D088FD96 /* Pods-Teltech EmployeesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DCFC20990D79658030C99517 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7421464B519F4E8B7C32259 /* Pods_Teltech_Employees.framework */,
+				ABD1E0C8D36D5CEF081E4217 /* Pods_Teltech_Employees_Teltech_EmployeesUITests.framework */,
+				9BEE2AC017D3B9678ECB6C21 /* Pods_Teltech_EmployeesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +316,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FC8A14329B0B3740051EEF9 /* Build configuration list for PBXNativeTarget "Teltech Employees" */;
 			buildPhases = (
+				F09D40300911A640C196E206 /* [CP] Check Pods Manifest.lock */,
 				5FC8A11529B0B3720051EEF9 /* Sources */,
 				5FC8A11629B0B3720051EEF9 /* Frameworks */,
 				5FC8A11729B0B3720051EEF9 /* Resources */,
+				21863F7F76B053811D5D9FE9 /* [CP] Embed Pods Frameworks */,
+				5FC8A16029B0B5290051EEF9 /* R-Swift */,
 			);
 			buildRules = (
 			);
@@ -151,6 +336,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FC8A14629B0B3740051EEF9 /* Build configuration list for PBXNativeTarget "Teltech EmployeesTests" */;
 			buildPhases = (
+				68D93B294CF70532239E7838 /* [CP] Check Pods Manifest.lock */,
 				5FC8A12B29B0B3740051EEF9 /* Sources */,
 				5FC8A12C29B0B3740051EEF9 /* Frameworks */,
 				5FC8A12D29B0B3740051EEF9 /* Resources */,
@@ -169,9 +355,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FC8A14929B0B3740051EEF9 /* Build configuration list for PBXNativeTarget "Teltech EmployeesUITests" */;
 			buildPhases = (
+				13FE08B225F1F95D86771692 /* [CP] Check Pods Manifest.lock */,
 				5FC8A13529B0B3740051EEF9 /* Sources */,
 				5FC8A13629B0B3740051EEF9 /* Frameworks */,
 				5FC8A13729B0B3740051EEF9 /* Resources */,
+				57EB21A1F0DD7E8A0FD73005 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +419,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FC8A12929B0B3740051EEF9 /* LaunchScreen.storyboard in Resources */,
-				5FC8A12629B0B3740051EEF9 /* Assets.xcassets in Resources */,
-				5FC8A12429B0B3720051EEF9 /* Main.storyboard in Resources */,
+				5FC8A17D29B0B5AB0051EEF9 /* Assets.xcassets in Resources */,
+				5FC8A18629B0B5AB0051EEF9 /* Preview Assets.xcassets in Resources */,
+				5FC8A17E29B0B5AB0051EEF9 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +441,146 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13FE08B225F1F95D86771692 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Teltech Employees-Teltech EmployeesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21863F7F76B053811D5D9FE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teltech Employees/Pods-Teltech Employees-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teltech Employees/Pods-Teltech Employees-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Teltech Employees/Pods-Teltech Employees-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57EB21A1F0DD7E8A0FD73005 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teltech Employees-Teltech EmployeesUITests/Pods-Teltech Employees-Teltech EmployeesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teltech Employees-Teltech EmployeesUITests/Pods-Teltech Employees-Teltech EmployeesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Teltech Employees-Teltech EmployeesUITests/Pods-Teltech Employees-Teltech EmployeesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FC8A16029B0B5290051EEF9 /* R-Swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "R-Swift";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		68D93B294CF70532239E7838 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Teltech EmployeesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F09D40300911A640C196E206 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Teltech Employees-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5FC8A11529B0B3720051EEF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FC8A12129B0B3720051EEF9 /* ViewController.swift in Sources */,
+				5FC8A18929B0B5AB0051EEF9 /* UIViewController+Extension.swift in Sources */,
+				5FC8A18029B0B5AB0051EEF9 /* Coordinator.swift in Sources */,
+				5FC8A17F29B0B5AB0051EEF9 /* AppCoordinator.swift in Sources */,
 				5FC8A11D29B0B3720051EEF9 /* AppDelegate.swift in Sources */,
 				5FC8A11F29B0B3720051EEF9 /* SceneDelegate.swift in Sources */,
+				5FC8A18429B0B5AB0051EEF9 /* EmployeeListViewController.swift in Sources */,
+				5FC8A18129B0B5AB0051EEF9 /* ParentCoordinatorDelegate.swift in Sources */,
+				5FC8A18829B0B5AB0051EEF9 /* Observable+Extension.swift in Sources */,
+				5FC8A18329B0B5AB0051EEF9 /* EmployeeListViewModel.swift in Sources */,
+				5FC8A18229B0B5AB0051EEF9 /* CoordinatorDelegate.swift in Sources */,
+				5FC8A18729B0B5AB0051EEF9 /* UIView+Extension.swift in Sources */,
+				5FC8A18529B0B5AB0051EEF9 /* EmployeeListCoordinator.swift in Sources */,
+				5FC8A18A29B0B5AB0051EEF9 /* UITableView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +615,6 @@
 			targetProxy = 5FC8A13A29B0B3740051EEF9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5FC8A12229B0B3720051EEF9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5FC8A12329B0B3720051EEF9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5FC8A12729B0B3740051EEF9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5FC8A12829B0B3740051EEF9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5FC8A14129B0B3740051EEF9 /* Debug */ = {
@@ -366,7 +667,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +721,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,6 +733,7 @@
 		};
 		5FC8A14429B0B3740051EEF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7BEDB80C204714DB77BAAE2 /* Pods-Teltech Employees.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,9 +743,7 @@
 				INFOPLIST_FILE = "Teltech Employees/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +751,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.josipmarkovic.Teltech-Employees";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,6 +762,7 @@
 		};
 		5FC8A14529B0B3740051EEF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78EED5F0283EE0740F81573C /* Pods-Teltech Employees.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -468,9 +772,7 @@
 				INFOPLIST_FILE = "Teltech Employees/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,6 +780,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.josipmarkovic.Teltech-Employees";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -486,16 +791,20 @@
 		};
 		5FC8A14729B0B3740051EEF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F80FE95604B8475CD19507B3 /* Pods-Teltech EmployeesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.josipmarkovic.Teltech-EmployeesTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -505,16 +814,20 @@
 		};
 		5FC8A14829B0B3740051EEF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2286C79489578C20D088FD96 /* Pods-Teltech EmployeesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.josipmarkovic.Teltech-EmployeesTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -524,6 +837,7 @@
 		};
 		5FC8A14A29B0B3740051EEF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48B08469B64B6B9F26D212AB /* Pods-Teltech Employees-Teltech EmployeesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +846,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.josipmarkovic.Teltech-EmployeesUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -541,6 +858,7 @@
 		};
 		5FC8A14B29B0B3740051EEF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E53A38FBF939503780325848 /* Pods-Teltech Employees-Teltech EmployeesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -549,6 +867,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.josipmarkovic.Teltech-EmployeesUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
