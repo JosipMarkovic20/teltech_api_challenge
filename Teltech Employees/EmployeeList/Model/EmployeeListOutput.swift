@@ -17,7 +17,7 @@ struct EmployeeListOutput{
 enum EmployeeListOutputEvent{
     case reloadData
     case error(_ message: String)
-    case openDetails(activity: EmployeeViewItem)
+    case openDetails(employeeItem: EmployeeViewItem)
 }
 
 struct EmployeeListSectionItem: Equatable{
