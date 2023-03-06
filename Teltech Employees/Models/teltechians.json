@@ -1,0 +1,364 @@
+{
+    "executive team": [{
+            "name": "Patrick",
+            "surname": "Falzon",
+            "image": "patrick",
+            "title": "General Manager",
+            "agency": "",
+            "intro": "Hello, I'm Patrick.",
+            "description": "As General Manager, my role is made easy by the rest of the amazing team here at Teltech, where our goal is to deliver forward-thinking and user-friendly mobile solutions that focus on security, practicality and innovation. In my free time, I enjoy travel, reading and long walks on the beach (with my dog, of course)."
+        },
+        {
+            "name": "Matt",
+            "surname": "Mizenko",
+            "image": "matt",
+            "title": "SVP of Operations",
+            "agency": "",
+            "intro": "Sup y'all? I'm Matt and I'm the SVP of Operations.",
+            "description": "At my heart, I am a sausage maker, which means that I do the really fun stuff like driving process and execution. Jealous, right? Nothing geeks me out more than starting with a few ideas on a whiteboard and eventually shipping a polished product. I've been in mobile since way before it was even a thing; in fact, I built one of the world's first mobile commerce applications. Though I grew up in NJ (Rutgers Strong!) I currently live on a small farm outside of Seattle, WA with my family and am a diehard supporter of local club and 2019 MLS Champions Seattle Sounders FC."
+        },
+        {
+            "name": "Giulia",
+            "surname": "Porter",
+            "image": "giulia-2019",
+            "title": "VP of Marketing",
+            "agency": "",
+            "intro": "Hi there, I'm Giulia.",
+            "description": "I lead Teltech's Marketing efforts as the VP of Marketing. I love geeking out on brand and data-driven marketing. In my free time, I enjoy photography, travel, and trips to Target."
+        },
+        {
+            "name": "Dan",
+            "surname": "Pannasch",
+            "image": "dan-2019",
+            "title": "VP of Product",
+            "agency": "",
+            "intro": "Oh hey! I'm Dan.",
+            "description": "As the VP of Product, my mission is to make sure that our products are constantly evolving to meet the needs of our customers and to equip our product managers to lead their teams effectively. When I'm not at the office, I'm probably at home drinking a Mountain Dew, listening to a podcast, and pretending to know how to be an adult."
+        }
+    ],
+    "operations": [{
+            "name": "Nate",
+            "surname": "Joel",
+            "image": "natej-2019",
+            "title": "Director of Operations",
+            "agency": "",
+            "intro": "Yerr, I'm Nate.",
+            "description": "As Teltech's Director of Operations, I oversee many different efforts across teams and assist in the improvement processes around our policies and procedures. I also ensure there is support and accountability for our organization's strategic direction while assisting in the creation and management of our long term goals. In my spare time, you can find me in the gym, practicing my violin or piano, playing tug of war with my pup, or humming along to some R&B jams."
+        },
+        {
+            "name": "Mike",
+            "surname": "Elliott",
+            "image": "mike-e",
+            "title": "IT and Desktop Systems Administrator",
+            "agency": "",
+            "intro": "Hey, I'm Mike! (Or Elliott. Or, 'Hey, IT guy.')",
+            "description": "As the IT and Desktop Systems Admin, my job is to make sure everyone's tech is up and running. Even after being in this field for over 10 years, I'm still finding things that surprise me. When I'm not fixing computers you can find me out exploring local breweries, reading a way too big sci-fi novel, or just wondering about a park somewhere (probably looking at birds)."
+        },
+        {
+            "name": "Lupe",
+            "surname": "Bailey",
+            "image": "lupe",
+            "title": "People & Culture Manager",
+            "agency": "",
+            "intro": "Hey there, Lupe here!",
+            "description": "Throughout my career at Teltech I have worn many hats and have acted as the ‘catch-all'. However, I have always been drawn to our people and our culture. I know that creating an open and accepting space for all is the best way to empower each individual to grow and reach their fullest potential. As the People & Culture Manager for Teltech, I get to do just that."
+        }
+    ],
+    "product team": [{
+            "name": "Thomas",
+            "surname": "Flaim",
+            "image": "tommy-2019",
+            "title": "Product Manager",
+            "agency": "",
+            "intro": "Hello! My name's Tommy.",
+            "description": "As a product manager, I am obsessed with understanding our customer's needs and developing innovative solutions to make sure RoboKiller and TapeACall are solving their problems. I enjoy hiking my favorite trails, playing videos games and I love my German Shepherd, Elsie. Did I mention I play the trumpet?"
+        },
+        {
+            "name": "Nick",
+            "surname": "Godwin",
+            "image": "nick",
+            "title": "Senior Product Manager",
+            "agency": "",
+            "intro": "Hey there, I'm Nick!",
+            "description": "As a Senior Product Manager, I help make RoboKiller one of your favorite apps. I also get a little nerdy about craft beer and coffee. As a native San Diegan, you'll find me outside and wearing sandals as much as I can."
+        },
+        {
+            "name": "James",
+            "surname": "Kocher",
+            "image": "james-k",
+            "title": "Senior Product Manager",
+            "agency": "",
+            "intro": "Hello :)",
+            "description": "I am a Senior Product Manager for SwitchUp and I've been tasked with working on making the Command Center even more powerful at blocking spam calls. I never learned to code but love being able to understand the technical details of how things work so I can translate user requirements to developers and help build the best products. I enjoy all things cars, building PCs, playing video games (mainly FPS), snowboarding, and totally unplugging outdoors when I'm not working."
+        },
+        {
+            "name": "Alvin",
+            "surname": "Liu",
+            "image": "alvin",
+            "title": "Product Manager",
+            "agency": "",
+            "intro": "Hi, I'm Alvin.",
+            "description": "I am a Product Manager at Teltech. When I landed my first job as an equity trader on Wall Street I learned how to invest and trade heavily in the US equity market. Now, I act more like a financial advisor to a lot of my friends and family helping them trade and invest to retire at the age of 50. I love traveling and exploring the world, and so far I've visited 30 countries. I also have a white Pomeranian, who is about 5 years old now."
+        },
+        {
+            "name": "Bryan",
+            "surname": "Ospina",
+            "image": "ospina-2019",
+            "title": "Associate Product Manager",
+            "agency": "",
+            "intro": "Hey, what's up? I'm Bryan!",
+            "description": "I'm a product manager and my duty is to help our team deliver the best apps possible! With my extensive technical support background, I know our users very well and I'm on a mission to help them get exactly what they want. When I'm not digging into work, you can find me playing video games, beekeeping, or catching a soccer game!"
+        }
+    ],
+    "marketing team": [
+        {
+            "name": "Chris",
+            "surname": "Millet",
+            "image": "chris-m",
+            "title": "Senior Creative Manager",
+            "agency": "",
+            "intro": "Hello friends!",
+            "description": "My name is Chris and I'm the Senior Creative Manager for all Teltech Brands! From Motion Graphics to Animation to VFX, and even full Live action production I design and organize everything our Apps and design team need to innovate and capture our audience. In my spare time, I'm an avid gamer playing both Tabletop and Video Games. Don't get me started on my obsession with Dungeons and Dragons or I might stop working altogether."
+        },
+        {
+            "name": "Jillian",
+            "surname": "Young",
+            "image": "jillian",
+            "title": "Growth Marketer",
+            "agency": "",
+            "intro": "Hey, I'm Jillian!",
+            "description": "I am a Growth Marketer here at Teltech. My role consists of developing and carrying out new growth initiatives and tests across all of our apps in order to grow our user base! You can usually find me at the movies (I'm a huge film nerd) or playing my guitar. I'm also an identical twin!"
+        },
+        {
+            "name": "Amanda",
+            "surname": "",
+            "image": "amanda-2",
+            "title": "Public Relations Manager",
+            "agency": "",
+            "intro": "Hi, I'm Amanda!",
+            "description": "I'm the Public Relations Manager at Teltech. In my role, I manage the overall strategy and public relations efforts for Teltech and RoboKiller. In my spare time, I enjoy traveling with my husband, spending time outdoors (especially during the fall 🍂), listening to music, and a really good dance party! 💃"
+        },
+        {
+            "name": "Wendy",
+            "surname": "Diep",
+            "image": "wendy",
+            "title": "Director of Marketing",
+            "agency": "",
+            "intro": "Hi, I'm Wendy.",
+            "description": "As the Director of Marketing at Teltech, I help oversee TelTech's growth and marketing efforts. In my free time, I read, travel, and love trying new restaurants/bars."
+        },
+        {
+            "name": "Justin",
+            "surname": "Garcia",
+            "image": "justing-2019",
+            "title": "Community Manager",
+            "agency": "",
+            "intro": "Yoyo, it's Justin.",
+            "description": "I'm the voice of the people! I work as our Community Manager and I love being part of the Teltech family. I make sure we are listening to our users so everyone can be happy. Outside of work you can catch me playing video games and walking my Boston terrier Rocky. I also love to dance and used to be an assistant breakdance teacher in high-school. Whenever there is dancing going on at Teltech, I will be the first one ON and the last one OFF the dance floor!"
+        },
+        {
+            "name": "Yauheni",
+            "surname": "Bakumenka",
+            "image": "yauheni",
+            "title": "User Acquisition Lead",
+            "agency": "",
+            "intro": "Hi, I'm Eugene!",
+            "description": "I'm the Lead of User Acquisition at Teltech. My role consists of analyzing all ad campaigns for all Teltech apps. In my free time, I prefer playing video games and collecting comics, and I enjoy street roller skating."
+        },
+        {
+            "name": "Katsiaryna",
+            "surname": "Sazonava",
+            "image": "katsiaryna",
+            "title": "Senior Marketing Manager",
+            "agency": "",
+            "intro": "Hey! I'm Kate, or Katsiaryna!",
+            "description": "As the Marketing and ASO Manager, I help with App Store Optimization and UA creatives for RoboKiller and TrapCall. I've been working in mobile marketing since 2014, and have tried my skills in maps and health/fitness applications, startup for Uber drivers, and casual games. I love exploring new fields and doing my best to make people love the apps I'm doing marketing for. As for my hobbies, I've been doing yoga for 10 years now and have two beautiful Oriental cats. When I'm not working, there's high chance that I'm reading – I cannot live without my Kindle and read about one book per week."
+        },
+        {
+            "name": "Anastasiya",
+            "surname": "Buntsevich",
+            "image": "anastasiya",
+            "title": "UA Manager",
+            "agency": "",
+            "intro": "Hi, my name is Anastasiya.",
+            "description": "I'm a User Acquisition Manager at Teltech, working with RoboKiller, TapeACall and TrapCall. In my spare time, I enjoy watching good movies and hanging with my friends. Also, I love traveling and have a dream to see the whole world one day."
+        },
+        {
+            "name": "Margarita",
+            "surname": "Kripulevich",
+            "image": "margarita",
+            "title": "Senior Marketing Manager",
+            "agency": "",
+            "intro": "Hey, I'm Margarita!",
+            "description": "I'm the Marketing Manager here at Teltech. My main responsibilities are to be on top of advertising trends and ASO optimization. I adore spending my free time with my family or reading a book."
+        }
+    ],
+    "design team": [{
+            "name": "Oren",
+            "surname": "Schindler",
+            "image": "oren",
+            "title": "Manager of UX Design",
+            "agency": "",
+            "intro": "Hey, how's it going?",
+            "description": "Here at Teltech, my goal is to build consistency through informed learning while gaining insight about our target audience. In my spare time, I like to go to the beach and hang out with my family in and around Brooklyn. I also enjoy playing board games, cooking, eating, and watching a good comedy. Got any recommendations for a good rock/blues/acid jazz/reggae concert?"
+        },
+        {
+            "name": "Chihiro",
+            "surname": "Kobayashi",
+            "image": "chi",
+            "title": "Lead UX Designer",
+            "agency": "",
+            "intro": "Hi, I'm Chi!",
+            "description": "I have been at IAC for over 15 years and I'm very excited to be working on RoboKiller! In my free time, I love drawing illustrations, watching Anime, building plastic models, and playing board games."
+        }
+    ],
+    "development team": [
+        {
+            "name": "Marty",
+            "surname": "Balaban",
+            "image": "marty",
+            "title": "Mobile Developer",
+            "agency": "",
+            "intro": "Bonjour, je m'appelle Marty.",
+            "description": "I have been passionately building iOS and Android applications since 2009. I am always super excited to delivery amazing user experiences and functionality as well as being able to get my work into the hands of people so quickly. When I'm not changing the world coding… I love playing softball, building physical things, and playing music on my trumpet and piano. I love spending time with my three kids and wife in our totally sweet Star Wars basement theater. I have a big passion for electric vehicles since I feel like I'm piloting a spaceship when I'm driving around town."
+        },
+        {
+            "name": "Al",
+            "surname": "Beebe",
+            "image": "al",
+            "title": "Senior Front-End Engineer",
+            "agency": "",
+            "intro": "What's up guy, I'm Al.",
+            "description": "I'm responsible for leading the development of our websites and apps. Most of my time is spent coding. I'm wicked good with electricity, and really big into home automation. I'm currently tinkering with my house so I can control it from my phone. Hopefully, I remember to keep my phone charged. "
+        },
+        {
+            "name": "Daniel",
+            "surname": "Bordak",
+            "image": "daniel-b-2019",
+            "title": "Software Engineer",
+            "agency": "",
+            "intro": "Hi, I'm Daniel!",
+            "description": "I'm a Full Stack Developer working on TapeACall. I enjoy board games, video games, building keyboards, watching movies with friends, and of course, programming! I'm a firm believer in doing things right the first time, and I hate having to clean (whether it's code or my floor)."
+        },
+        {
+            "name": "Jason",
+            "surname": "Clardy",
+            "image": "jason",
+            "title": "Software Engineer",
+            "agency": "",
+            "intro": "Hey, I'm Jason.",
+            "description": "I started to learn about programming on a TI-83 graphing calculator in middle school. Now, I do pretty much everything relating to front-end development for mobile apps on both iOS and Android. In my former life I was a rock star... well, maybe not. I just played electric guitar in a metal band during my college years at NC State University. "
+        },
+        {
+            "name": "Mauricio",
+            "surname": "Cuenca",
+            "image": "mauricio-2019",
+            "title": "Software Engineer",
+            "agency": "",
+            "intro": "Hey, I'm Mauricio!",
+            "description": "I'm part of the micro-services platform team. I enjoy playing tennis and hiking or mountain biking over the New Jersey, New York and Pennsylvania tri-state area as long as the outside temperature is higher than 10 degrees... celsius."
+        },
+        {
+            "name": "Tom",
+            "surname": "Devito",
+            "image": "tom-d-2019",
+            "title": "Software Engineer",
+            "agency": "",
+            "intro": "Hey, I'm Tom, and no I'm not related to Danny DeVito.",
+            "description": "I'm part of the micro-services platform team at TelTech. Besides beating my co-workers at ping-pong, I enjoy being outdoors, smoking food on my grill, and building things out of wood."
+        },
+        {
+            "name": "Paul",
+            "surname": "Dippold",
+            "image": "paul",
+            "title": "Software Engineer",
+            "agency": "",
+            "intro": "Hey, I'm Paul!",
+            "description": "I'm an iOS Developer working on TapeACall and Call Recorder. I made my first iPhone app when I was 13 years old; ever since then I have spent as much of my time on the platform as possible. In my free time I like to search for and photograph waterfalls and homebrew ginger beer."
+        },
+        {
+            "name": "Manuel",
+            "surname": "Peguero",
+            "image": "manuel-2019",
+            "title": "Software Engineer",
+            "agency": "",
+            "intro": "Hey, I'm Manuel.",
+            "description": "I'm part of the micro-services platform team at TelTech. I love to play pool, watch Japanese anime, tv shows, and sports. And, of course, drink beer."
+        }
+    ],
+    "data team": [{
+            "name": "Stella",
+            "surname": "Wang",
+            "image": "stella",
+            "title": "Data Analyst",
+            "agency": "",
+            "intro": "Hi, I'm Stella!",
+            "description": "As a Data Analyst, my main focus is on telling stories with data and helping business to grow. In my free time, I enjoy working out and doing yoga. I am also an Impressionist art lover, where you will find me at the Met or MoMA watching paintings. I love traveling, and since I grew up in Beijing, China I travel back once a year to gather together with my family."
+        },
+        {
+            "name": "Prachi",
+            "surname": "Kate",
+            "image": "prachi",
+            "title": "Data Engineer",
+            "agency": "",
+            "intro": "Hey! I'm Prachi.",
+            "description": "I am a Data Engineer and my main responsibility is to make data readily available to Analysts and Scientists. In my free time I enjoy going for a run with my dog (Joey the Sheepdog!), reading a book, playing games on my PS or just going out for a drink with my friends."
+        }
+    ],
+    "quality assurance team": [{
+            "name": "Kevin",
+            "surname": "Mendoza",
+            "image": "kevin",
+            "title": "QA Engineer",
+            "agency": "",
+            "intro": "What's up guys, I'm Kevin!",
+            "description": "Working in Quality Assurance, I make sure our apps are as flawless and bug-free as possible. When I'm not at work, I enjoy playing video games and spending time with my friends and family. I also enjoy taking on new and interesting challenges."
+        },
+        {
+            "name": "Louis",
+            "surname": "Valentino",
+            "image": "lou",
+            "title": "QA Engineer",
+            "agency": "",
+            "intro": "What's up? I'm Louis.",
+            "description": "I work with a great team to uphold TelTech's quality standards. I ensure that our apps are bug free before they're released and that all issues are resolved quickly. I live for Yankees baseball, vinyl records, and video games."
+        }
+    ],
+    "customer service team": [{
+            "name": "Kanstantsin",
+            "surname": "Karpovich",
+            "image": "kanstantsin",
+            "title": "Customer Support Team Lead",
+            "agency": "",
+            "intro": "Hey, I'm Kostya!",
+            "description": "I provide our users with solutions for any issues they might have. I'm a huge fan of history, addicted to music and learning how to play a guitar, and passionate about traveling."
+        },
+        {
+            "name": "Yana",
+            "surname": "Radzilavets",
+            "image": "yana",
+            "title": "Customer Support Manager",
+            "agency": "",
+            "intro": "Hi, I'm Yana!",
+            "description": "My goal is to deliver great service and exceed users' expectations. I'm a massive fan of reading -- classical literature is a big part of my life and I dream about becoming a writer one day. I also love Chinese food!"
+        },
+        {
+            "name": "Lizaveta",
+            "surname": "Kozina",
+            "image": "lizaveta",
+            "title": "Senior Customer Support Manager",
+            "agency": "",
+            "intro": "Hi, I'm Liza!",
+            "description": "Communication with customers, resolving their issues and guiding the users through features and functionalities of the products are among my key responsibilities. In my spare time, I like traveling with my family and friends, spending time outdoors or watching a new movie. Oh, do you know that I am a ballet dancer?"
+        },
+        {
+            "name": "Aliaksandr",
+            "surname": "Papushoi",
+            "image": "aliaksandr",
+            "title": "Customer Support Manager",
+            "agency": "",
+            "intro": "Hi, my name is Aliaksandr!",
+            "description": "If you've got any questions or issues with our products we are the first ones to react and help you. I like board games, comic books, kickboxing and occasionally making music."
+        }
+    ]
+}

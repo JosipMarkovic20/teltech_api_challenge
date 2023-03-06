@@ -12,12 +12,12 @@ final class EmployeesRepositoryImpl: EmployeesRepository {
     
     private let manager = RESTManager()
     
-    func getAllEmployees() -> Observable<Result<Team, Error>> {
+    func getAllEmployees() -> Observable<Result<TeamList, Error>> {
         
-        let observable: Observable<Result<Team, Error>> = manager.requestObservable(url: RESTEndpoints.employees.endpoint()).handleError()
+        let observable: Observable<Result<TeamList, Error>> = manager.requestObservable(url: RESTEndpoints.employees.endpoint()).handleError()
         return observable
     }
 }
 protocol EmployeesRepository {
-    func getAllEmployees() -> Observable<Result<Team, Error>>
+    func getAllEmployees() -> Observable<Result<TeamList, Error>>
 }

@@ -7,20 +7,42 @@
 
 import Foundation
 
-struct Team: Equatable, Codable {
-    let teamTitle: String
-    let employees: [Employee]
+struct TeamList: Equatable, Decodable {
+    let teams: [Team]
     
-    init(from decoder: Decoder) throws {
+    struct CodingKeys: CodingKey, Hashable {
         
-        let container = try decoder.singleValueContainer()
-        let dict = try container.decode([String:[Employee]].self)
+        var stringValue: String
         
-        guard let key = dict.keys.first else {
-            throw EmployeeError.general
+        init(stringValue: String) {
+            self.stringValue = stringValue
         }
         
-        self.teamTitle = key
-        self.employees = dict[key] ?? []
+        var intValue: Int? {
+            return nil
+        }
+        
+        init?(intValue: Int) {
+            return nil
+        }
     }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        let teamTitles = container.allKeys
+        
+        var teams = [Team]()
+        
+        for teamTitle in teamTitles {
+            let employees = try container.decode([Employee].self, forKey: teamTitle)
+            let team = Team(teamTitle: teamTitle.stringValue, employees: employees)
+            teams.append(team)
+        }
+        self.teams = teams
+    }
+}
+
+struct Team: Equatable {
+    let teamTitle: String
+    let employees: [Employee]
 }

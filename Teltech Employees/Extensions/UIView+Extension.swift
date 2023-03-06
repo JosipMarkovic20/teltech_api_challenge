@@ -14,4 +14,15 @@ extension UIView {
             self.addSubview(view)
         }
     }
+    
+    func roundCorners(_ corners: CACornerMask = [.layerMinXMinYCorner,
+                                                 .layerMaxXMinYCorner,
+                                                 .layerMinXMaxYCorner,
+                                                 .layerMaxXMaxYCorner],
+                      radius: CGFloat) {
+
+        layer.cornerRadius = radius
+        layer.maskedCorners = corners
+        layer.cornerCurve = .continuous
+    }
 }

@@ -70,8 +70,8 @@ extension EmployeeListViewModelImpl {
                 self.loaderPublisher.onNext(false)
                 
                 switch result {
-                case .success(let team):
-                    let items = self.createScreenData(from: team)
+                case .success(let teamList):
+                    let items = self.createScreenData(from: teamList)
                     return .just(EmployeeListOutput(items: items, event: .reloadData))
                 case .failure(let error):
                     return .just(EmployeeListOutput(items: self.output.value.items, event: .error(error.localizedDescription)))
@@ -84,7 +84,11 @@ extension EmployeeListViewModelImpl {
         return .just(EmployeeListOutput(items: output.value.items, event: .openDetails(employeeItem: item.item)))
     }
     
-    private func createScreenData(from team: Team) -> [EmployeeListSectionItem] {
-        return []
+    private func createScreenData(from teamList: TeamList) -> [EmployeeListSectionItem] {
+        return teamList.teams.map { team -> EmployeeListSectionItem in
+            return EmployeeListSectionItem(identity: team.teamTitle, items: team.employees.map({ employee -> EmployeeItem in
+                return EmployeeItem(identity: employee.name+employee.surname+employee.intro, item: EmployeeViewItem(name: employee.name, surname: employee.surname, image: employee.image, title: employee.title, agency: employee.agency, intro: employee.intro, description: employee.description, teamTitle: team.teamTitle))
+            }))
+        }
     }
 }

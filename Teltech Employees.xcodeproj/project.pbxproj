@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		21F37D4E546090B08FE7574A /* Pods_Teltech_Employees.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7421464B519F4E8B7C32259 /* Pods_Teltech_Employees.framework */; };
+		5F48EDF629B5F0F6005C78E3 /* EmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F48EDF529B5F0F6005C78E3 /* EmployeeCell.swift */; };
+		5F48EDF829B5F467005C78E3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F48EDF729B5F467005C78E3 /* Colors.xcassets */; };
+		5F48EDFA29B5FDE1005C78E3 /* teltechians.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F48EDF929B5FDE1005C78E3 /* teltechians.json */; };
+		5F48EE0129B60E4F005C78E3 /* DetailsOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F48EE0029B60E4F005C78E3 /* DetailsOutput.swift */; };
+		5F48EE0329B60E56005C78E3 /* DetailsInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F48EE0229B60E56005C78E3 /* DetailsInput.swift */; };
+		5F48EE0529B60E5F005C78E3 /* DetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F48EE0429B60E5F005C78E3 /* DetailsCoordinator.swift */; };
+		5F48EE0729B60E6C005C78E3 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F48EE0629B60E6C005C78E3 /* DetailsViewModel.swift */; };
+		5F48EE0929B60E77005C78E3 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F48EE0829B60E77005C78E3 /* DetailsViewController.swift */; };
+		5F48EE0C29B60F9E005C78E3 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F48EE0B29B60F9E005C78E3 /* DetailsView.swift */; };
 		5FC8A11D29B0B3720051EEF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A11C29B0B3720051EEF9 /* AppDelegate.swift */; };
 		5FC8A11F29B0B3720051EEF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A11E29B0B3720051EEF9 /* SceneDelegate.swift */; };
 		5FC8A13429B0B3740051EEF9 /* Teltech_EmployeesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC8A13329B0B3740051EEF9 /* Teltech_EmployeesTests.swift */; };
@@ -61,6 +70,15 @@
 /* Begin PBXFileReference section */
 		2286C79489578C20D088FD96 /* Pods-Teltech EmployeesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teltech EmployeesTests.release.xcconfig"; path = "Target Support Files/Pods-Teltech EmployeesTests/Pods-Teltech EmployeesTests.release.xcconfig"; sourceTree = "<group>"; };
 		48B08469B64B6B9F26D212AB /* Pods-Teltech Employees-Teltech EmployeesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teltech Employees-Teltech EmployeesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Teltech Employees-Teltech EmployeesUITests/Pods-Teltech Employees-Teltech EmployeesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F48EDF529B5F0F6005C78E3 /* EmployeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCell.swift; sourceTree = "<group>"; };
+		5F48EDF729B5F467005C78E3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		5F48EDF929B5FDE1005C78E3 /* teltechians.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = teltechians.json; sourceTree = "<group>"; };
+		5F48EE0029B60E4F005C78E3 /* DetailsOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsOutput.swift; sourceTree = "<group>"; };
+		5F48EE0229B60E56005C78E3 /* DetailsInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsInput.swift; sourceTree = "<group>"; };
+		5F48EE0429B60E5F005C78E3 /* DetailsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCoordinator.swift; sourceTree = "<group>"; };
+		5F48EE0629B60E6C005C78E3 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		5F48EE0829B60E77005C78E3 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		5F48EE0B29B60F9E005C78E3 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		5FC8A11929B0B3720051EEF9 /* Teltech Employees.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teltech Employees.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC8A11C29B0B3720051EEF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FC8A11E29B0B3720051EEF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +149,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F48EDF429B5F0E1005C78E3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5F48EDF529B5F0F6005C78E3 /* EmployeeCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5F48EDFB29B60DEE005C78E3 /* EmployeeDetails */ = {
+			isa = PBXGroup;
+			children = (
+				5F48EDFF29B60E3D005C78E3 /* Model */,
+				5F48EDFE29B60E10005C78E3 /* Coordinator */,
+				5F48EDFD29B60E06005C78E3 /* ViewModel */,
+				5F48EDFC29B60E00005C78E3 /* UI */,
+			);
+			path = EmployeeDetails;
+			sourceTree = "<group>";
+		};
+		5F48EDFC29B60E00005C78E3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5F48EE0A29B60F89005C78E3 /* View */,
+				5F48EE0829B60E77005C78E3 /* DetailsViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5F48EDFD29B60E06005C78E3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5F48EE0629B60E6C005C78E3 /* DetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5F48EDFE29B60E10005C78E3 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5F48EE0429B60E5F005C78E3 /* DetailsCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		5F48EDFF29B60E3D005C78E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F48EE0029B60E4F005C78E3 /* DetailsOutput.swift */,
+				5F48EE0229B60E56005C78E3 /* DetailsInput.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F48EE0A29B60F89005C78E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F48EE0B29B60F9E005C78E3 /* DetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		5FC8A11029B0B3720051EEF9 = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +243,7 @@
 				5FC8A16A29B0B5AA0051EEF9 /* Delegates */,
 				5FC8A16529B0B5AA0051EEF9 /* Coordinator */,
 				5FC8A16D29B0B5AA0051EEF9 /* EmployeeList */,
+				5F48EDFB29B60DEE005C78E3 /* EmployeeDetails */,
 				5FC8A16129B0B5AA0051EEF9 /* Assets */,
 				5FC8A11C29B0B3720051EEF9 /* AppDelegate.swift */,
 				5FC8A11E29B0B3720051EEF9 /* SceneDelegate.swift */,
@@ -195,6 +275,7 @@
 			children = (
 				5FC8A16229B0B5AA0051EEF9 /* Assets.xcassets */,
 				5FC8A16329B0B5AA0051EEF9 /* Localizable.strings */,
+				5F48EDF729B5F467005C78E3 /* Colors.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -265,6 +346,7 @@
 		5FC8A17029B0B5AA0051EEF9 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				5F48EDF429B5F0E1005C78E3 /* Cell */,
 				5FC8A17129B0B5AA0051EEF9 /* EmployeeListViewController.swift */,
 			);
 			path = UI;
@@ -293,6 +375,7 @@
 			children = (
 				5FC8A18F29B12C5C0051EEF9 /* Employee.swift */,
 				5FC8A19D29B13CEE0051EEF9 /* Team.swift */,
+				5F48EDF929B5FDE1005C78E3 /* teltechians.json */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -441,8 +524,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F48EDF829B5F467005C78E3 /* Colors.xcassets in Resources */,
 				5FC8A17D29B0B5AB0051EEF9 /* Assets.xcassets in Resources */,
 				5FC8A17E29B0B5AB0051EEF9 /* Localizable.strings in Resources */,
+				5F48EDFA29B5FDE1005C78E3 /* teltechians.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +682,9 @@
 				5FC8A19429B1307A0051EEF9 /* RESTManager.swift in Sources */,
 				5FC8A18C29B12BE40051EEF9 /* EmployeeError.swift in Sources */,
 				5FC8A17F29B0B5AB0051EEF9 /* AppCoordinator.swift in Sources */,
+				5F48EE0C29B60F9E005C78E3 /* DetailsView.swift in Sources */,
+				5F48EE0729B60E6C005C78E3 /* DetailsViewModel.swift in Sources */,
+				5F48EE0129B60E4F005C78E3 /* DetailsOutput.swift in Sources */,
 				5FC8A19629B135530051EEF9 /* RESTEndpoints.swift in Sources */,
 				5FC8A11D29B0B3720051EEF9 /* AppDelegate.swift in Sources */,
 				5FC8A11F29B0B3720051EEF9 /* SceneDelegate.swift in Sources */,
@@ -609,11 +697,15 @@
 				5FC8A18329B0B5AB0051EEF9 /* EmployeeListViewModel.swift in Sources */,
 				5FC8A18229B0B5AB0051EEF9 /* CoordinatorDelegate.swift in Sources */,
 				5FC8A19C29B136140051EEF9 /* EmployeeItem.swift in Sources */,
+				5F48EDF629B5F0F6005C78E3 /* EmployeeCell.swift in Sources */,
 				5FC8A19E29B13CEE0051EEF9 /* Team.swift in Sources */,
+				5F48EE0329B60E56005C78E3 /* DetailsInput.swift in Sources */,
 				5FC8A18729B0B5AB0051EEF9 /* UIView+Extension.swift in Sources */,
 				5FC8A18529B0B5AB0051EEF9 /* EmployeeListCoordinator.swift in Sources */,
+				5F48EE0529B60E5F005C78E3 /* DetailsCoordinator.swift in Sources */,
 				5FC8A18A29B0B5AB0051EEF9 /* UITableView+Extension.swift in Sources */,
 				5FC8A1A029B1418E0051EEF9 /* EmployeesRepository.swift in Sources */,
+				5F48EE0929B60E77005C78E3 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

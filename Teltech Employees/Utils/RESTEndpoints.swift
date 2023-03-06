@@ -11,15 +11,18 @@ enum RESTEndpoints{
     
     #warning("add all this info to info.plist when provieded")
     static var scheme: String{
-      return Bundle.main.infoDictionary!["API_BASE_SCHEME"] as! String
+        return ""
+//      return Bundle.main.infoDictionary!["API_BASE_SCHEME"] as! String
     }
     
     static var host: String{
-        Bundle.main.infoDictionary!["API_BASE_HOST"] as! String
+        return ""
+//        Bundle.main.infoDictionary!["API_BASE_HOST"] as! String
     }
     
     static var path: String{
-        Bundle.main.infoDictionary!["API_BASE_PATH"] as! String
+        return ""
+//        Bundle.main.infoDictionary!["API_BASE_PATH"] as! String
     }
     
     public static var ENDPOINT: String {

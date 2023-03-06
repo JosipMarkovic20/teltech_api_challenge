@@ -8,10 +8,14 @@
 import Foundation
 import UIKit
 
+protocol EmployeeListNavigationDelegate: AnyObject {
+    func navigateToEmployeeDetails(employee: EmployeeViewItem)
+}
+
 final class EmployeeListCoordinator: NSObject, Coordinator {
     
-    let navigationController: UINavigationController
-    let employeeListViewController: EmployeeListViewController
+    private let navigationController: UINavigationController
+    private let employeeListViewController: EmployeeListViewController
     var childCoordinators: [Coordinator] = []
     weak var parentDelegate: ParentCoordinatorDelegate?
     
@@ -26,11 +30,14 @@ final class EmployeeListCoordinator: NSObject, Coordinator {
     }
     
     func start() {
+        employeeListViewController.employeeListNavigationDelegate = self
         navigationController.pushViewController(employeeListViewController, animated: true)
     }
 
     static private func createEmployeeListViewController() -> EmployeeListViewController {
-        let viewModel = EmployeeListViewModelImpl()
+        
+        let dependecies = EmployeeListViewModelImpl.Dependecies(employeesRepository: EmployeesRepositoryImpl())
+        let viewModel = EmployeeListViewModelImpl(dependecies: dependecies)
         let viewController = EmployeeListViewController(viewModel: viewModel)
         return viewController
     }
@@ -43,5 +50,14 @@ extension EmployeeListCoordinator: CoordinatorDelegate, ParentCoordinatorDelegat
     
     func childHasFinished(coordinator: Coordinator) {
         removeChildCoordinator(coordinator: coordinator)
+    }
+}
+
+extension EmployeeListCoordinator: EmployeeListNavigationDelegate {
+    func navigateToEmployeeDetails(employee: EmployeeViewItem) {
+        let coordinator = DetailsCoordinator(navController: navigationController, employee: employee)
+        addChildCoordinator(coordinator: coordinator)
+        coordinator.parentDelegate = self
+        coordinator.start()
     }
 }

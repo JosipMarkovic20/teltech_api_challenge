@@ -32,6 +32,7 @@ struct EmployeeViewItem: Equatable {
     let agency: String
     let intro: String
     let description: String
+    let teamTitle: String
     
     static func == (lhs: EmployeeViewItem, rhs: EmployeeViewItem) -> Bool {
         lhs.name == rhs.name && lhs.surname == rhs.surname && lhs.intro == rhs.intro

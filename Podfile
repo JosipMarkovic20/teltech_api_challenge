@@ -12,6 +12,7 @@ target 'Teltech Employees' do
   pod 'R.swift'
   pod 'RxDataSources'
   pod 'Alamofire'
+  pod 'Kingfisher'
 
   target 'Teltech EmployeesTests' do
     inherit! :search_paths
