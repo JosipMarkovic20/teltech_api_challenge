@@ -9,7 +9,7 @@ import Foundation
 
 enum RESTEndpoints{
     
-    #warning("add all this info to info.plist when provieded")
+    //RETURN VALUES ARE COMMENTED OUT UNTIL API IS PROVIDED
     static var scheme: String{
         return ""
 //      return Bundle.main.infoDictionary!["API_BASE_SCHEME"] as! String

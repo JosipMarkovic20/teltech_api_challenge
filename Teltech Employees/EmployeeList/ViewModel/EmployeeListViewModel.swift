@@ -25,7 +25,7 @@ final class EmployeeListViewModelImpl: EmployeeListViewModel {
     var loaderPublisher = PublishSubject<Bool>()
     var input: ReplaySubject<EmployeeListInput> = ReplaySubject.create(bufferSize: 1)
     var output: BehaviorRelay<EmployeeListOutput> = BehaviorRelay(value: EmployeeListOutput(items: []))
-    let dependecies: Dependecies
+    private let dependecies: Dependecies
     
     init(dependecies: Dependecies) {
         self.dependecies = dependecies
@@ -87,7 +87,17 @@ extension EmployeeListViewModelImpl {
     private func createScreenData(from teamList: TeamList) -> [EmployeeListSectionItem] {
         return teamList.teams.map { team -> EmployeeListSectionItem in
             return EmployeeListSectionItem(identity: team.teamTitle, items: team.employees.map({ employee -> EmployeeItem in
-                return EmployeeItem(identity: employee.name+employee.surname+employee.intro, item: EmployeeViewItem(name: employee.name, surname: employee.surname, image: employee.image, title: employee.title, agency: employee.agency, intro: employee.intro, description: employee.description, teamTitle: team.teamTitle))
+                
+                let employeeItem = EmployeeViewItem(name: employee.name,
+                                                    surname: employee.surname,
+                                                    image: employee.image,
+                                                    title: employee.title,
+                                                    agency: employee.agency,
+                                                    intro: employee.intro,
+                                                    description: employee.description,
+                                                    teamTitle: team.teamTitle)
+                
+                return EmployeeItem(identity: employee.name+employee.surname+employee.intro, item: employeeItem)
             }))
         }
     }

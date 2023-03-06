@@ -30,6 +30,7 @@ final class EmployeeListCoordinator: NSObject, Coordinator {
     }
     
     func start() {
+        employeeListViewController.coordinatorDelegate = self
         employeeListViewController.employeeListNavigationDelegate = self
         navigationController.pushViewController(employeeListViewController, animated: true)
     }

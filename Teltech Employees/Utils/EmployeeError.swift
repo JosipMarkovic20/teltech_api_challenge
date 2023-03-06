@@ -9,5 +9,4 @@ import Foundation
 
 enum EmployeeError: Error {
     case general
-    case noConnection
 }

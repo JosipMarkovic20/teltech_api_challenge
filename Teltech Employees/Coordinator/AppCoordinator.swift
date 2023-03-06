@@ -25,13 +25,18 @@ class AppCoordinator: Coordinator{
     private func createEmployeeListCoordinator(presenter: UINavigationController){
         let employeeListCoordinator = EmployeeListCoordinator(navController: presenter)
         self.addChildCoordinator(coordinator: employeeListCoordinator)
+        employeeListCoordinator.parentDelegate = self
         employeeListCoordinator.start()
     }
 }
 
-extension AppCoordinator: CoordinatorDelegate{
+extension AppCoordinator: CoordinatorDelegate, ParentCoordinatorDelegate{
     func viewControllerHasFinished() {
         childCoordinators.removeAll()
         removeChildCoordinator(coordinator: self)
+    }
+    
+    func childHasFinished(coordinator: Coordinator) {
+        removeChildCoordinator(coordinator: coordinator)
     }
 }

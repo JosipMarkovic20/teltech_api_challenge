@@ -23,7 +23,7 @@ final class DetailsViewModelImpl: DetailsViewModel {
     
     var input: ReplaySubject<DetailsInput> = ReplaySubject.create(bufferSize: 1)
     var output: BehaviorRelay<DetailsOutput> = BehaviorRelay.init(value: DetailsOutput(item: nil, event: nil))
-    var dependencies: Dependencies
+    private let dependencies: Dependencies
     
     init(dependencies: Dependencies) {
         self.dependencies = dependencies
@@ -33,15 +33,17 @@ final class DetailsViewModelImpl: DetailsViewModel {
 extension DetailsViewModelImpl {
     
     func bindViewModel() -> [Disposable] {
+        
         var disposables = [Disposable]()
         disposables.append(self.input
-                            .observe(on: ConcurrentDispatchQueueScheduler.init(qos: .background))
-                            .flatMap{ [unowned self] (input) -> Observable<DetailsOutput> in
-                                switch input{
-                                case .loadData:
-                                    return .just(.init(item: dependencies.employee, event: .reloadData))
-                                }
-                            }.bind(to: output))
+            .observe(on: ConcurrentDispatchQueueScheduler.init(qos: .background))
+            .flatMap{ [unowned self] (input) -> Observable<DetailsOutput> in
+                switch input{
+                case .loadData:
+                    return .just(.init(item: dependencies.employee, event: .reloadData))
+                }
+            }.bind(to: output))
+        
         return disposables
     }
 }

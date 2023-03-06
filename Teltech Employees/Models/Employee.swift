@@ -10,7 +10,6 @@ import Foundation
 struct Employee: Codable, Equatable {
     let name: String
     let surname: String
-    #warning("check why is url missing in response for image")
     let image: String
     let title: String
     let agency: String

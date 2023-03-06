@@ -14,11 +14,13 @@ import SnapKit
 
 final class EmployeeListViewController: UIViewController, UITableViewDelegate, LoaderProtocol {
     
+    weak var coordinatorDelegate: CoordinatorDelegate?
     weak var employeeListNavigationDelegate: EmployeeListNavigationDelegate?
+    
     private let viewModel: EmployeeListViewModel
     private var dataSource: RxTableViewSectionedAnimatedDataSource<EmployeeListSectionItem>?
     
-    public let tableView: UITableView = {
+    private let tableView: UITableView = {
         let tv = UITableView()
         tv.separatorStyle = .none
         return tv
@@ -53,6 +55,14 @@ final class EmployeeListViewController: UIViewController, UITableViewDelegate, L
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(true, animated: true)
     }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        if isMovingFromParent{
+            coordinatorDelegate?.viewControllerHasFinished()
+        }
+    }
+
 }
 
 extension EmployeeListViewController {
