@@ -9,7 +9,7 @@ Whole flow should be easy to follow, because every input event is processed insi
 UI is done programatically using UIKit for UI elements, SnapKit for managing constraints and Kingfisher for loading images.
 
 Network requests are processed with Alamofire with generic function inside RESTManager that returns observable objects so it can be used with RxSwift.
-Repository pattern is implemented so network code is decoupled for every feature and easy to mantain.
+Repository pattern is implemented so code is more testable as every repository is injected as a dependecy and easily replaced with mock.
 
 Strings localization, assets and colors are managed with R.Swift which provides strong typed and autocompleted resources.
 
